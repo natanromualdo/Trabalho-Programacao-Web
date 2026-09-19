@@ -1,57 +1,24 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exercício 11 — Mapa do Site</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+# Trabalho do 1º Bimestre — Programação Web
 
-  <div class="pagina">
+## Integrantes
 
-    <h1 class="titulo-pagina">Mapa do site — Cozinha da Marina</h1>
-    <p class="subtitulo">Como as páginas deste trabalho se organizam</p>
+- Natan Romualdo
+- Lorena Rodrigues
 
-    <ul class="mapa">
-      <li>Página inicial
-        <ul>
-          <li><a href="../01-introducao/index.html">Exercício 1 — Introdução</a></li>
-          <li><a href="../02-perfil/index.html">Exercício 2 — Perfil da chef</a></li>
-          <li>Portfólio
-            <ul>
-              <li><a href="../03-portfolio/index.html">Exercício 3 — Portfólio dos exercícios</a></li>
-            </ul>
-          </li>
-          <li>Cardápio &amp; Experiência
-            <ul>
-              <li><a href="../04-blog/index.html">Exercício 4 — Blog de críticas</a></li>
-              <li><a href="../08-produto/index.html">Exercício 8 — Menu degustação</a></li>
-              <li><a href="../12-galeria/index.html">Exercício 12 — Galeria de fotos</a></li>
-              <li><a href="../13-promocoes/index.html">Exercício 13 — Promoções</a></li>
-              <li><a href="../15-lancamento/index.html">Exercício 15 — Lançamento de produto</a></li>
-            </ul>
-          </li>
-          <li>A casa
-            <ul>
-              <li><a href="../06-faq/index.html">Exercício 6 — Perguntas frequentes</a></li>
-              <li><a href="../10-testemunhos/index.html">Exercício 10 — Depoimentos</a></li>
-              <li><a href="../14-equipe/index.html">Exercício 14 — Perfil de equipe</a></li>
-              <li><a href="../11-mapa-do-site/index.html">Exercício 11 — Mapa do site</a></li>
-            </ul>
-          </li>
-          <li>Área do cliente
-            <ul>
-              <li><a href="../05-contato/index.html">Exercício 5 — Contato</a></li>
-              <li><a href="../07-login/index.html">Exercício 7 — Login</a></li>
-              <li><a href="../09-tarefas/index.html">Exercício 9 — Lista de tarefas</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
+## Índice de exercícios
 
-  </div>
-
-</body>
-</html>
+- [Exercício 1 — Página de Introdução](./01-introducao/)
+- [Exercício 2 — Página de Perfil](./02-perfil/)
+- [Exercício 3 — Página de Portfólio](./03-portfolio/)
+- [Exercício 4 — Página de Blog](./04-blog/)
+- [Exercício 5 — Página de Contato](./05-contato/)
+- [Exercício 6 — Página de FAQ](./06-faq/)
+- [Exercício 7 — Página de Login](./07-login/)
+- [Exercício 8 — Página de Produto](./08-produto/)
+- [Exercício 9 — Página de Lista de Tarefas](./09-tarefas/)
+- [Exercício 10 — Página de Testemunhos](./10-testemunhos/)
+- [Exercício 11 — Página de Mapa do Site](./11-mapa-do-site/)
+- [Exercício 12 — Página de Galeria de Fotos](./12-galeria/)
+- [Exercício 13 — Página de Promoções](./13-promocoes/)
+- [Exercício 14 — Página de Perfil de Equipe](./14-equipe/)
+- [Exercício 15 — Página de Lançamento de Produto](./15-lancamento/)
