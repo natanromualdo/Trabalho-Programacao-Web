@@ -1,0 +1,45 @@
+/* Container que recebe a imagem de fundo (propriedade obrigatória do exercício) */
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+
+.pagina {
+  background-image: url("rest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+
+.titulo {
+  text-align: center;  
+  color: #333333; 
+  border-width: 6px;    
+  border-style: solid;
+  border-color: #C9A66B;
+  padding: 10px;
+}
+
+
+.texto {
+  text-align: center;
+  color:#333333;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #C9A66B;
+  padding: 10px;
+}
+
+.nota {
+  position: fixed; 
+  bottom: 15px;
+  left: 15px;     
+  font-size: 14px;
+  color: #333333;
+
+}

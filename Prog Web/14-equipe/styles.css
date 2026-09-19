@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8bf8a8;
+}
+
+.pagina {
+  min-height: 100vh;
+}
+
+.titulo-pagina {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+
+.equipe {
+  max-width: 940px;
+  margin: 0 auto 60px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.membro {
+  width: 210px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.membro-foto {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.membro-nome {
+  margin-top: 14px;
+  font-size: 1.05rem;
+}
+
+.membro-cargo {
+  color: #C9A66B;
+  font-weight: bold;
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+.membro-bio {
+  color: #444444;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  background-color: #8bf8a8;
+}
+ 
+.pagina {
+  min-height: 100vh;
+}
+
+.produto {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 20px 60px 20px;
+}
+
+.capa {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.titulo-produto {
+  margin-top: 20px;
+}
+
+.descricao-produto {
+  color: #444;
+}
+
+.prato-item {
+  display: flex;
+  gap: 14px;
+  margin-top: 24px;
+  align-items: flex-start;
+}
+
+.prato-foto {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.prato-nome {
+  margin: 0 0 6px 0;
+  font-size: 1.05rem;
+}
+
+.prato-historia {
+  margin: 0;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.preco {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.preco-opcao {
+  margin: 6px 0;
+}
+
+.botao-comprar {
+  box-sizing: border-box;
+  width: 280px;
+  padding: 16px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #C9A66B;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+}
+

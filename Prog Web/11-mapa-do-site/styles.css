@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #8bf8a8;
+}
+
+.pagina {
+  min-height: 100vh;
+}
+
+.titulo-pagina {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #333333;
+}
+
+.mapa {
+  list-style: none;
+  max-width: 560px;
+  margin: 0 auto 60px auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  line-height: 1.9;
+}
+
+.mapa a {
+  color: #4a3a2b;
+  text-decoration: none;
+}
+
+.mapa a:hover {
+  text-decoration: underline;
+}
+
+.mapa,
+.mapa ul {
+  list-style: none;
+}
+
+.mapa {
+  text-indent: 0;
+}
+
+.mapa ul {
+  text-indent: 24px;
+}
+
+.mapa ul ul {
+  text-indent: 48px;
+}
+
+.mapa li {
+  font-weight: bold;
+  color: #333333;
+}
+
+.mapa ul li {
+  font-weight: normal;
+}

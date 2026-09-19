@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  background-color: #8bf8a8;
+}
+ 
+.pagina {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.perfil {
+  max-width: 400px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.foto {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%; 
+}
+
+.menu {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+.nome {
+  margin-top: 16px;
+  font-size: 1.8rem;
+}
+
+.descricao {
+  color: BLACK;
+}
+
+.redes {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #BA8E23;
+  font-weight: bold;
+}

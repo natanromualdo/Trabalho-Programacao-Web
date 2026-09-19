@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+body {
+  background-color: #8bf8a8;
+}
+ 
+.pagina {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-blog {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.criticas {
+  list-style: none;
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.critica {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  background-color: #f2f2f2;
+}
+
+.critica--positiva {
+  border-left: 5px solid #4caf50;
+}
+
+.critica--negativa {
+  border-left: 5px solid #e57373;
+}
+
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.conteudo {
+  flex: 1;
+}
+
+.autor {
+  font-weight: bold;
+  margin: 0 0 2px 0;
+}
+
+.data {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 0 0 8px 0;
+}
+
+.prato {
+  font-weight: bold;
+  margin: 0 0 6px 0;
+}
+
+.foto-prato {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.resumo {
+  margin: 0 0 10px 0;
+}
+
+.leia-mais {
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: underline;
+}
